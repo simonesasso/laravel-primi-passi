@@ -1,0 +1,65 @@
+// GENERALI--------------------------------
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul{
+  list-style-type: none;
+}
+// HEADER-------------------------
+header{
+  height: 15vh;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h1{
+    color: lightblue;
+  }
+}
+nav{
+  padding: 20px;
+  height: 10vh;
+  background-color: lightblue;
+  align-items: center;
+  display: flex;
+  h5{
+    margin-right: 10px;
+    font-size: 15px;
+  }
+}
+// CONTENT-------------------
+.main{
+  height: 60vh;
+}
+@import "about";
+@import "contact";
+@import "home";
+// FOOTER---------------------------------
+footer{
+  height: 15vh;
+  padding: 20px;
+  background-color: lightblue;
+  align-items: center;
+  display: flex;
+}
+.div-ul-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+}
+.footer-contatti{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  i{
+    margin: 5px;
+    font-size: 30px;
+  }
+  i:hover{
+    color: blue;
+    cursor: pointer;
+  }
+}
